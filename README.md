@@ -1,15 +1,13 @@
 # Stride.Modding
-Usefull functions for modding Stride
-
-# Future goals
+Usefull functions for runtime modding Stride
 
 ## Script loading
-[x] Loading DLLs at runtime
-[ ] Loading standalone scripts
+- [x] Loading DLLs at runtime
+- [ ] Loading standalone scripts
 
 ## Model importing
-[ ] GLTF loading (will likely use the code from [here](https://github.com/ykafia/StrideGltf/blob/master/GltfImport/LoadGLTF.cs) or just use the built in lib from Stride once its cross platform)
-[ ] FBX loading (I may just wait for the work to be done on the Stride importer https://github.com/stride3d/stride/pull/2163)
+- [ ] GLTF loading (will likely use the code from [here](https://github.com/ykafia/StrideGltf/blob/master/GltfImport/LoadGLTF.cs) or just use the built in lib from Stride once its cross platform)
+- [ ] FBX loading (I may just wait for the work to be done on the Stride importer https://github.com/stride3d/stride/pull/2163)
 
 ## Misc
 At this point any other moddable features can be a seperate project since the base will be able to come from Stride.Modding.
