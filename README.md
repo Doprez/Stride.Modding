@@ -32,7 +32,7 @@ public interface ILoadable
 
 Create a class to access the ModLoader
 ``` csharp
-public class ModLoader : CustomModLoader<ILoadable>
+public class ModLoader : BaseLibraryLoader<ILoadable>
 {
 	// You can override some methods here to implement your own loaders.
 }
