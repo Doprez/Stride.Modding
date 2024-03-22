@@ -42,7 +42,6 @@ finally you can create the instance how you want to enable loading mods at runti
 ``` csharp
 public class CustomGame : Game
 {
-	private MyraRenderer _myraRenderer;
 	protected override void BeginRun()
 	{
 		base.BeginRun();
