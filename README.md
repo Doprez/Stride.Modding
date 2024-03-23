@@ -4,6 +4,7 @@ Usefull functions for runtime modding Stride
 ## Script loading
 - [x] Loading DLLs at runtime
 - [ ] Loading standalone scripts
+- [ ] [Lua?](https://github.com/NLua/NLua)
 
 ## Model importing
 - [ ] GLTF loading (will likely use the code from [here](https://github.com/ykafia/StrideGltf/blob/master/GltfImport/LoadGLTF.cs) or just use the built in lib from Stride once its cross platform)
